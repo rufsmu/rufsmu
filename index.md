@@ -11,7 +11,7 @@ banner: 13570.jpg
 > (Horatius Bonar, God's Way of Peace)
 
 <span class="mhimg img-large img-center" markdown="1">
-![RUF]({{ site.baseurl }}/assets/image/large/252118.jpg){:style="width:100%"}
+![RUF](/assets/image/large/252118.jpg){:style="width:100%"}
 </span>
 
 ## RUF Large Group
