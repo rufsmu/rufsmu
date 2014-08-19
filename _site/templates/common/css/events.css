@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/* Calendar and Events CSS Document */
+
+/* Calendar
+------------------------------*/
+#calendar_content span.current_month_year {
+  float: right;
+  margin: 6px 5px 0 0;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bold; }
+#calendar_content a.btn_today {
+  float: right;
+  height: 19px;
+  width: 61px;
+  margin: 6px 10px 0 0;
+  text-indent: -5000px;
+  background: transparent url("../images/events/btn_today.png");
+  outline: none; }
+#calendar_content a.btn_next_month {
+  float: right;
+  height: 19px;
+  width: 26px;
+  margin: 6px 5px 0 0;
+  text-indent: -5000px;
+  background: transparent url("../images/events/btn_next_month.png");
+  outline: none; }
+#calendar_content a.btn_previous_month {
+  float: right;
+  height: 19px;
+  width: 26px;
+  margin: 6px 5px 0 0;
+  text-indent: -5000px;
+  background: transparent url("../images/events/btn_previous_month.png");
+  outline: none; }
+  #calendar_content div.month {
+    float: left;
+    width: 100%; }
+    #calendar_content div.month div#day_names {  
+      display: block; 
+      height: 40px; 
+      overflow: hidden; }
+      #calendar_content div.month div#day_names span {
+        display: block;
+        float: left;
+        height: 20px;
+        width: 14.2%;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold; }
+        #calendar_content div.month div#day_names span abbr { border: none; }
+    #calendar_content div.month div.week {
+      position: relative;
+      float: left;
+      white-space: nowrap;
+      width: 100% !important;
+      width: 99.4%;
+      height: 93px;
+      border-left: 1px solid #CCCCCC; }
+      #calendar_content div.month div.week div.day {
+        float: left;
+        clear: none;
+        width: 14.2% !important;
+        width: 14.0%;
+        height: 93px;
+        border-bottom: 1px solid #CCCCCC;
+        background: #FFFFFF url("../images/events/bg_calendar-day.gif") no-repeat top right; }
+      #calendar_content div.month div.week div.today {
+        background-color: #EAF3FA; }
+          #calendar_content div.month div.week div.day span.number {
+            display: block;
+            color: #000000;
+            font-size: 11px;
+            line-height: normal;
+            text-align: right;
+            padding: 3px 5px;
+            margin: 1px 1px 0 0;
+            background-color: #F0F0F0; }
+          #calendar_content div.month div.week div.today span.number {
+            background-color: #CBD8E4; }
+          #calendar_content div.month div.week div.overflow span.number { 
+            color: #999999; }
+
+      #calendar_content div.month div.week div.event {
+        position: absolute;
+        height: 20px;
+        width: 14.2%;
+        font: 10px/20px "Lucida Grande", Verdana, sans-serif;
+        overflow: hidden; }
+        #calendar_content div.month div.week div.event a {
+          display: inline; }
+        #calendar_content div.month div.week div.event a small {
+          display: inline-block; /* IE Hack */
+          font-size: 9px;
+          padding: 0 3px;
+          text-decoration: none;
+          color: #333333;
+          background: #FFFFFF; }
+        #calendar_content div.month div.week div.event span.right,
+        #calendar_content div.month div.week div.event span.left {
+          display: none; }
+      #calendar_content div.month div.week div.all_day_event {
+        position: absolute;
+        height: 20px;
+        /* Background color defined by color picker */
+        font: 10px/20px "Lucida Grande", Verdana, sans-serif;
+        overflow: hidden; }
+          #calendar_content div.month div.week div.all_day_event span.title {
+            line-height: 20px; }
+          #calendar_content div.month div.week div.all_day_event span.title a {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 10px;
+            color: #FFFFFF;
+            text-decoration: none; }
+          #calendar_content div.month div.week div.hide_left span.title a {
+            padding-left: 3px; }
+        #calendar_content div.month div.week div.all_day_event span.right {
+          display: block;
+          float: right;
+          text-indent: -5000px;
+          height: 20px;
+          width: 10px;
+          border: 0;
+          margin: 0;
+          padding: 0;
+          background: transparent url("../images/events/bg_multiday-right.png") no-repeat 0 0; }
+          #calendar_content div.month div.week div.hide_right span.right {
+            display: none; }
+        #calendar_content div.month div.week div.all_day_event span.left {
+          display: block;
+          float: left;
+          text-indent: -5000px;
+          height: 20px;
+          width: 9px;
+          border: 0;
+          margin: 0;
+          padding: 0;
+          background: transparent url("../images/events/bg_multiday-left.png") no-repeat 0 0; }
+          #calendar_content div.month div.week div.hide_left span.left {
+            display: none; }
+
+/* Event Detail
+------------------------------*/
+#event_content a.btn_back_to_calendar {
+  float: right;
+  height: 19px;
+  width: 137px;
+  margin: 6px 0 0 0;
+  text-indent: -5000px;
+  background: transparent url("../images/events/btn_back-to-calendar.png");
+  outline: none; }
+
+#event_content div.event_details {
+  padding: 10px 15px 1px 15px;
+  margin: 10px 0 20px 0; }
+  #event_content div.event_details p.details {
+    margin: 0 0 10px 0;
+    padding: 0; }
+    #event_content div.event_details p.details strong {
+      padding: 0 10px 0 0;
+      font-weight: bold;
+      text-decoration: underline;
+      text-transform: uppercase; }
+
+#event_content div.event_details p.social {
+  float: right; }
+  #event_content div.event_details p.social a {
+    display: block;
+    height: 20px;
+    float: left; }
+    #event_content div.event_details p.social a.facebook-share-button {
+      width: 58px;
+      margin-right: 5px;
+      text-indent: -5000px;
+      background: transparent url('../../../images/icons_embellishments/icon_fb_share.gif') no-repeat 0 0; }
+      #event_content div.event_details p.social a.facebook-share-button:hover,
+      #event_content div.event_details p.social a.facebook-share-button:active {
+        background-position: -58px 0; }

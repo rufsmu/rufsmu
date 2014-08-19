@@ -1,0 +1,10 @@
+# Site settings
+title: RUF at SMU
+tagline: Reaching students for Christ and equipping students to serve
+logo: /assets/image/rufsmu.png
+markdown: kramdown
+
+workspace:
+  css: /css/
+  js: /assets/javascripts/
+  images: /assets/image/

@@ -1,0 +1,390 @@
+/* Admin Toolbar CSS Document */
+
+
+div#admin-toolbar {
+  z-index: 9000;
+  position: relative;
+}
+
+/* =Working
+----------------------------------------*/
+div#working {
+  display: block;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  width: 110px;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 10px;
+  color: #4A92D9;
+  font-size: 16px;
+  font-weight: bold;
+  background: #FFFFFF url("../../images/working.gif") no-repeat 90% 50%;
+  border: 4px solid #CCCCCC;
+  z-index: 20000; }
+
+/* = Flash Notice
+--------------------------------------------------*/
+div#flash {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 20000;
+  text-align: center;
+  overflow: visible; }
+
+div.good {
+  background-color: #AFF87F;
+  border-top: 1px solid #8ECB65;
+  border-bottom: 1px solid #8ECB65; }
+
+  div#flash.good h4,
+  div#flash.good p {
+    color: #000000; }
+
+div.neutral {
+  background-color: #FFFFE0;
+  border-top: 1px solid #ECEC00;
+  border-bottom: 1px solid #ECEC00; }
+
+  div#flash.neutral h4,
+  div#flash.neutral p {
+    color: #000000; }
+
+div.bad {
+  background-color: #BE312E;
+  border-top: 1px solid #6E191B;
+  border-bottom: 1px solid #6E191B; }
+
+  div#flash.bad h4,
+  div#flash.bad p {
+    color: #FFFFFF; }
+
+  div#flash h4 {
+    font-size: 13.6px;
+    font-weight: bold;
+    padding: 0 0 5px 0;
+    line-height: normal; }
+
+  div#flash p {
+    font-size: 12.6px;
+    line-height: 16px;
+    margin: 0; }
+
+/* =Toggle Nav
+----------------------------------------*/
+div#admin-toolbar div#toggle-wrapper {
+  height: 45px;
+  background-color: #222222;
+  border-bottom: 4px solid #262C32;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #FFFFFF; }
+
+  div#admin-toolbar div#toggle-wrapper ul {
+    width: 90%;
+    margin: 0 auto; }
+
+    div#admin-toolbar div#toggle-wrapper ul li {
+      display: inline; }
+
+      div#admin-toolbar div#toggle-wrapper ul li#welcome {
+        float: left;
+        margin-top: 18px;
+        padding: 0 15px 0 0; }
+
+        div#admin-toolbar div#toggle-wrapper ul li a#btn-live {
+          display: block;
+          float: left;
+          margin-top: 10px;
+          width: 121px;
+          height: 26px;
+          text-indent: -5000px;
+          background: transparent url("../../images/nav/btn_toggle-live.png") no-repeat -242px 0;
+          outline: none; }
+
+          body.admin div#admin-toolbar div#toggle-wrapper ul li a#btn-live:hover { background-position: -121px 0; }
+          body.admin div#admin-toolbar div#toggle-wrapper ul li a#btn-live:active { background-position: -242px 0; }
+          body.admin div#admin-toolbar div#toggle-wrapper ul li a#btn-live { background-position: 0 0; }
+
+        div#admin-toolbar div#toggle-wrapper ul li a#btn-admin {
+          display: block;
+          float: left;
+          margin-top: 10px;
+          width: 121px;
+          height: 26px;
+          text-indent: -5000px;
+          background: transparent url("../../images/nav/btn_toggle-admin.png") no-repeat 0 0;
+          outline: none; }
+
+            div#admin-toolbar div#toggle-wrapper ul li a#btn-admin:hover { background-position: -121px 0; }
+            div#admin-toolbar div#toggle-wrapper ul li a#btn-admin:active { background-position: -242px 0; }
+            body.admin div#admin-toolbar div#toggle-wrapper ul li a#btn-admin { background-position: -242px 0; }
+
+        div#admin-toolbar div#toggle-wrapper ul li#msites-logo {
+          display: block;
+          float: right;
+          margin: 14px 0 0 0;
+          width: 69px;
+          height: 21px;
+          text-indent: -5000px;
+          background: transparent url("../../images/nav/logo_msites.gif") no-repeat 0 0; }
+
+            div#admin-toolbar div#toggle-wrapper ul li a#btn-logout {
+              display: block;
+              float: right;
+              margin: 15px 20px 0 0;
+              width: auto;
+              height: 17px;
+              padding-left: 20px;
+              background: transparent url("../../images/nav/icon_logout.png") no-repeat 0 -27px;
+              font-size: 12px;
+              font-weight: normal;
+              line-height: 21px;
+              color: #919191;
+              text-decoration: underline; }
+
+              div#admin-toolbar div#toggle-wrapper ul li a#btn-logout:hover,
+              div#admin-toolbar div#toggle-wrapper ul li a#btn-logout:active {
+                color: #FFFFFF;
+                background-position: 0 3px; }
+
+            div#admin-toolbar div#toggle-wrapper ul li a#btn-help {
+              display: block;
+              float: right;
+              margin: 15px 20px 0 0;
+              width: auto;
+              height: 17px;
+              padding-left: 20px;
+              background: transparent url("../../images/nav/icon_help.png") no-repeat 0 -27px;
+              font-size: 12px;
+              font-weight: normal;
+              line-height: 21px;
+              color: #919191;
+              text-decoration: underline; }
+
+              div#admin-toolbar div#toggle-wrapper ul li a#btn-help:hover,
+              div#admin-toolbar div#toggle-wrapper ul li a#btn-help:active {
+                color: #FFFFFF;
+                background-position: 0 3px;
+                background-repeat: no-repeat; }
+
+
+/* =Page Options Nav
+----------------------------------------*/
+div#admin-toolbar div#page-options-wrapper {
+  height: 34px;
+  background-color: #374050;
+  border-top: 1px solid #404B5D;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: #FFFFFF; }
+
+    div#admin-toolbar div#page-options-wrapper ul#page-options {
+      width: 90%;
+      margin: 0 auto; }
+
+      div#admin-toolbar div#page-options-wrapper ul#page-options li {
+        display: block;
+        float: left;
+        margin-top: 3px;
+        width: auto !important; /* IE6 Hack */
+        width: 1px; }
+
+        div#admin-toolbar div#page-options-wrapper ul#page-options li.page-status-public,
+        div#admin-toolbar div#page-options-wrapper ul#page-options li.page-status-private {
+          display: block;
+          float: right;
+          margin-top: 3px;
+          background: none; }
+
+          div#admin-toolbar div#page-options-wrapper ul#page-options li.page-status-public a {
+            display: block;
+            text-indent: -5000px;
+            height: 26px;
+            width: 98px;
+            background: transparent url("../../images/nav/btn_public-private.png") no-repeat 0 0;
+            outline: none; }
+            div#admin-toolbar div#page-options-wrapper ul#page-options li.page-status-public a:hover {
+              background: transparent url("../../images/nav/btn_public-over.gif") no-repeat 0 0; }
+          
+          div#admin-toolbar div#page-options-wrapper ul#page-options li.page-status-private a {
+            display: block;
+            text-indent: -5000px;
+            height: 26px;
+            width: 98px;
+            background: transparent url("../../images/nav/btn_public-private.png") no-repeat -98px 0;
+            outline: none; }
+            div#admin-toolbar div#page-options-wrapper ul#page-options li.page-status-private a:hover {
+              background: transparent url("../../images/nav/btn_private-over.gif") no-repeat 0 0; }
+
+        div#admin-toolbar div#page-options-wrapper ul#page-options li a {
+          display: block;
+          height: 26px;
+          color: #FFFFFF;
+          text-decoration: none; }
+
+          div#admin-toolbar div#page-options-wrapper ul#page-options li a span {
+            display: block;
+            line-height: 16px;
+            padding: 6px 20px 0 34px;
+            white-space: nowrap; }
+                    
+            div#admin-toolbar div#page-options-wrapper ul#page-options li a span.pencil {
+              background: transparent url("../../images/icons_silk/pencil.png") no-repeat 12px 5px; }
+            div#admin-toolbar div#page-options-wrapper ul#page-options li a span.delete {
+              background: transparent url("../../images/icons_silk/delete.png") no-repeat 12px 5px; }
+            div#admin-toolbar div#page-options-wrapper ul#page-options li a span.page_white_add {
+              background: transparent url("../../images/icons_silk/page_white_add.png") no-repeat 12px 5px; }
+            div#admin-toolbar div#page-options-wrapper ul#page-options li a span.report_add {
+              background: transparent url("../../images/icons_silk/report_add.png") no-repeat 12px 5px; }
+            div#admin-toolbar div#page-options-wrapper ul#page-options li a span.picture_add {
+              background: transparent url("../../images/icons_silk/picture_add.png") no-repeat 12px 5px; }
+            div#admin-toolbar div#page-options-wrapper ul#page-options li a span.arrow_refresh {
+              background: transparent url("../../images/icons_silk/arrow_refresh.png") no-repeat 12px 5px; }
+            div#admin-toolbar div#page-options-wrapper ul#page-options li a span.table_add {
+              background: transparent url("../../images/icons_silk/table_add.png") no-repeat 12px 5px; }
+            div#admin-toolbar div#page-options-wrapper ul#page-options li a span.calendar_add {
+              background: transparent url("../../images/icons_silk/calendar_add.png") no-repeat 12px 5px; }
+            div#admin-toolbar div#page-options-wrapper ul#page-options li a span.calendar_delete {
+              background: transparent url("../../images/icons_silk/calendar_delete.png") no-repeat 12px 5px; }
+            div#admin-toolbar div#page-options-wrapper ul#page-options li a span.calendar_link {
+              background: transparent url("../../images/icons_silk/calendar_link.png") no-repeat 12px 5px; }
+            div#admin-toolbar div#page-options-wrapper ul#page-options li a span.calendar_view_day {
+              background: transparent url("../../images/icons_silk/calendar_view_day.png") no-repeat 12px 5px; }
+
+        div#admin-toolbar div#page-options-wrapper ul#page-options li.first-child {
+          background: transparent url("../../images/nav/btn_first-child-left.png") no-repeat left top; }
+
+          div#admin-toolbar div#page-options-wrapper ul#page-options li.first-child:hover {
+            background-position: left bottom; }
+
+          div#admin-toolbar div#page-options-wrapper ul#page-options li.first-child a {
+            background: transparent url("../../images/nav/btn_child-right.png") no-repeat right top; }
+
+          div#admin-toolbar div#page-options-wrapper ul#page-options li.first-child a:hover {
+            background-position: right bottom; }
+
+      div#admin-toolbar div#page-options-wrapper ul#page-options li {
+        background: transparent url("../../images/nav/btn_child-left.png") no-repeat left top; }
+
+        div#admin-toolbar div#page-options-wrapper ul#page-options li:hover {
+          background-position: left bottom; }
+
+        div#admin-toolbar div#page-options-wrapper ul#page-options li a {
+          background: transparent url("../../images/nav/btn_child-right.png") no-repeat right top; }
+
+          div#admin-toolbar div#page-options-wrapper ul#page-options li a:hover {
+            background-position: right bottom; }
+
+        div#admin-toolbar div#page-options-wrapper ul#page-options li.last-child {
+          background: transparent url("../../images/nav/btn_child-left.png") no-repeat left top; }
+
+          div#admin-toolbar div#page-options-wrapper ul#page-options li.last-child:hover {
+            background-position: left bottom; }
+
+            div#admin-toolbar div#page-options-wrapper ul#page-options li.last-child a {
+              background: transparent url("../../images/nav/btn_last-child-right.png") no-repeat right top; }
+
+              div#admin-toolbar div#page-options-wrapper ul#page-options li.last-child a:hover {
+                background-position: right bottom; }
+
+        div#admin-toolbar div#page-options-wrapper ul#page-options li.only-child {
+          background: transparent url("../../images/nav/btn_first-child-left.png") no-repeat left top; }
+
+          div#admin-toolbar div#page-options-wrapper ul#page-options li.only-child:hover {
+            background-position: left bottom; }
+
+            div#admin-toolbar div#page-options-wrapper ul#page-options li.only-child a {
+              background: transparent url("../../images/nav/btn_last-child-right.png") no-repeat right top; }
+
+              div#admin-toolbar div#page-options-wrapper ul#page-options li.only-child a:hover {
+                background-position: right bottom; }
+
+
+/* =Admin Nav
+----------------------------------------*/
+div#admin-toolbar #nav-admin-wrapper {
+  width: 100%;
+  height: 45px;
+  padding-top: 13px;
+  background-color: #374050;
+  border-bottom: 1px solid #222222;
+  border-top: 1px solid #404B5D; }
+
+    div#admin-toolbar #nav-admin-wrapper ul#nav-admin { 
+      padding: 0;
+    }
+
+      div#admin-toolbar #nav-admin-wrapper ul#nav-admin li {
+        display: inline; }
+
+        div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a {
+          display: block;
+          float: left;
+          height: 45px;
+          text-indent: -5000px;
+          position: relative;
+          top: 1px; }
+
+            div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#dashboard { background: transparent url("../../images/nav/nav_dashboard.png") 0 0 no-repeat; width: 111px; }
+            div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#dashboard:hover { background-position: -111px 0; }
+            div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#dashboard:active, 
+            body.dashboard div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#dashboard,
+            body.dashboard div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#dashboard:hover { background-position: -222px 0; }
+
+            /* Hover on the current state (which is defined through a body class) is required
+            because IE is stupid and will override the current state with the hover, even 
+            though it has a higher specifity. Stupid. */
+
+            div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#new-content { background: transparent url("../../images/nav/nav_create-new-content.png") 0 0 no-repeat; width: 163px; }
+            div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#new-content:hover { background-position: -163px 0; }
+            div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#new-content:active, 
+            body.create div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#new-content,
+            body.create div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#new-content:hover { background-position: -326px 0; }
+
+            div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#photo-management { background: transparent url("../../images/nav/nav_photo-management.png") 0 0 no-repeat; width: 160px; }
+            div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#photo-management:hover { background-position: -160px 0; }
+            div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#photo-management:active, 
+            body.photo div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#photo-management,
+            body.photo div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#photo-management:hover { background-position: -320px 0; }
+
+            div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#broadcast-email { background: transparent url("../../images/nav/nav_broadcast-email.png") 0 0 no-repeat; width: 139px; }
+            div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#broadcast-email:hover { background-position: -139px 0; }
+            div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#broadcast-email:active, 
+            body.email div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#broadcast-email,
+            body.email div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#broadcast-email:hover { background-position: -278px 0; }
+
+            div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#settings_users { background: transparent url("../../images/nav/nav_settings-users.png") 0 0 no-repeat; width: 141px; }
+            div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#settings_users:hover { background-position: -141px 0; }
+            div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#settings_users:active, 
+            body.settings div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#settings_users,
+            body.settings div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#settings_users:hover { background-position: -282px 0; }
+
+            div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#approval-tool {
+              text-indent: 0px;
+              float: right;
+              margin-top: 7px;
+              height: 14px;
+              padding-left: 20px;
+              color: #9BA0A8;
+              font-weight: normal;
+              background: transparent url("../../images/nav/icon_approval.png") 0 -20px no-repeat; }
+
+              div#admin-toolbar #nav-admin-wrapper ul#nav-admin li a#approval-tool:hover {
+                color: #FFFFFF;
+                background: transparent url("../../images/nav/icon_approval.png") 0 0 no-repeat; }
+
+p#saved-drafts-header{
+  margin: 30px 0 0;
+  font-size: 11px;
+  color: #999;
+}
+p#saved-drafts-header a{
+  color: #999;
+  font-weight: normal;
+}

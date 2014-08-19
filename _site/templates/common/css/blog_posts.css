@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* Blog Posts CSS Document */
+
+/* Blog Home and Posts
+------------------------------*/
+#blog_content div.post,
+#post_content div.post {
+  padding: 0 0 20px 0; }
+  #blog_content div.post h1,
+  #post_content div.post h1 {
+    margin: 0; }
+    #blog_content div.post h1 a,
+    #post_content div.post h1 a {
+      text-decoration: none; }
+    #blog_content div.post h1 a:hover,
+    #post_content div.post h1 a:hover {
+      text-decoration: underline; }
+  #blog_content div.post p.meta,
+  #post_content div.post p.meta {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 0 10px 0;
+    margin-bottom: 0;
+    line-height: normal; }
+
+  #post_content div.post p.social { }
+    #post_content div.post p.social a {
+      display: block;
+      height: 20px;
+      float: left; }
+      #post_content div.post p.social a.facebook-share-button {
+        width: 58px;
+        margin-right: 5px;
+        text-indent: -5000px;
+        background: transparent url('../../../images/icons_embellishments/icon_fb_share.gif') no-repeat 0 0; }
+        #post_content div.post p.social a.facebook-share-button:hover,
+        #post_content div.post p.social a.facebook-share-button:active {
+          background-position: -58px 0; }
+
+  #blog_content p.browse-archives a,
+  #post_content p.browse-archives a {
+    font-weight: bold; }
+
+/* Blog Comments
+------------------------------*/
+#post_content #comments {
+  clear: both;
+  padding: 2px 0;
+  border-top: 1px solid #EBEBEB; }
+  #post_content #comments #comments-header {
+    padding: 12px 0;
+    background: #EBEBEB url("../images/blog/bg_comments-header.gif") no-repeat 15px 15px; }
+    #post_content #comments #comments-header h3 {
+      font-size: 16px;
+      color: #666666;
+      font-weight: normal;
+      margin: 0 0 5px 80px;
+      padding: 0; }
+    #post_content #comments #comments-header p {
+      margin: 0 0 0 80px;
+      padding: 0;
+      font-size: 12px;
+      color: #666666; }
+      #post_content #comments #comments-header p a { }
+      #post_content #comments #comments-header p a:hover { }
+  #post_content #comments div.hr {
+    padding: 2px 0 0 0;
+    margin: 0 0 2px 0;
+    border-bottom: 1px solid #EBEBEB; }
+    #post_content #comments div.hr hr {
+      display: none; }
+  #post_content #comments ol {
+    background: #F5F5F5;
+    padding: 10px 10px 1px 10px;
+    margin: 0; }
+    #post_content #comments ol li {
+      padding: 0 0 10px 0;
+      list-style-type: none; }
+      #post_content #comments ol li p.meta {
+        font-size: 14px;
+        color: #333333;
+        margin: 0; }
+        #post_content #comments ol li p.meta cite {
+          font-style: normal;
+          font-weight: bold;
+          padding: 0 10px 0 0; }
+          #post_content #comments ol li p.meta cite a { }
+          #post_content #comments ol li p.meta cite a:hover { }
+      #post_content #comments ol li div.comment-content { }
+        #post_content #comments ol li div.comment-content p {
+          margin: 0 0 10px 0;
+          color: #333333; }
+          #post_content #comments ol li div.comment-content p a.delete {
+            color: #CC0000; }
+          #post_content #comments ol li div.comment-content p a.delete:hover { }
+  #post_content #comments #comment-form {
+    padding: 10px 0 0 0; }
+    #post_content #comments #comment-form h3 {
+      font-size: 14px;
+      font-weight: bold; }
+    #post_content #comments #comment-form fieldset {
+      clear: none;
+      width: 100%;
+      padding-top: 10px;
+      background: #F5F5F5; }
+      #post_content #comments #comment-form fieldset p {
+        padding: 0 10px 10px; }
+        #post_content #comments #comment-form fieldset p label {
+          font-weight: bold;
+          color: #666666;
+          padding: 0 0 4px 0; }
+          #post_content #comments #comment-form fieldset p label small {
+            font-size: 11px;
+            font-weight: normal; }
+        #post_content #comments #comment-form fieldset p input {
+          display: block;
+          font-size: 14px;
+          color: #333333;
+          padding: 3px 2px;
+          border-top: 2px solid #BBBBBB;
+          border-left: 1px solid #BBBBBB;
+          border-right: 1px solid #BBBBBB;
+          border-bottom: 1px solid #DDDDDD; }
+        #post_content #comments #comment-form fieldset p textarea {
+          display: block;
+          font-size: 14px;
+          color: #333333;
+          padding: 3px 2px;
+          width: 356px;
+          height: 100px;
+          border-top: 2px solid #BBBBBB;
+          border-left: 1px solid #BBBBBB;
+          border-right: 1px solid #BBBBBB;
+          border-bottom: 1px solid #DDDDDD; }
+      #post_content #comments #comment-form fieldset p.actions { }
+        #post_content #comments #comment-form fieldset p.actions button {
+          font-size: 14px;
+          padding: 4px 10px; }

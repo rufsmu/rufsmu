@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/* Web Forms CSS Document */
+
+/* Login Form
+------------------------------*/
+#login_form,
+#forgot_password_form {
+  height: 350px; }
+
+/* Form */
+#form_content form {
+  float: left; /* This is a Safari 2 hack that I undo at the bottom of this document */ }
+#form_content fieldset {
+	width: 100%;
+	border: 0;
+	padding: 0 0 5px 0; }
+	#form_content fieldset h3 {
+		font-size: 12.6px;
+		line-height: 100%;
+		font-weight: bold;
+		xcolor: #333333;
+		margin: 0 0 5px 0;
+		padding: 0;
+		clear: both; }
+		#form_content fieldset h3 b.required {
+			font-size: 9px;
+			line-height: 12.6px;
+			font-weight: normal;
+			padding: 0 0 0 6px;
+			color: #CC0000;
+			text-transform: uppercase; }
+	#form_content fieldset div.form-item {
+		float: left;
+		padding: 0 0 10px 0; }
+		#form_content fieldset div.form-item input {
+			display: block;
+			font-size: 14px;
+			color: #333333;
+			padding: 3px 2px;
+			border-top: 2px solid #BBBBBB;
+    	border-left: 1px solid #BBBBBB;
+    	border-right: 1px solid #BBBBBB;
+    	border-bottom: 1px solid #DDDDDD; }
+		#form_content fieldset div.form-item select {
+			border-top: 2px solid #BBBBBB;
+    	border-left: 1px solid #BBBBBB;
+    	border-right: 1px solid #BBBBBB;
+    	border-bottom: 1px solid #DDDDDD; }
+		#form_content fieldset div.form-item textarea {
+			width: 462px;
+			height: 100px;
+			color: #333333;
+			padding: 3px 2px;
+			font-size: 14px;
+			border-top: 2px solid #BBBBBB;
+    	border-left: 1px solid #BBBBBB;
+    	border-right: 1px solid #BBBBBB;
+    	border-bottom: 1px solid #DDDDDD; }
+		#form_content fieldset div.form-item label {
+			font-family: "Lucida Grande", Arial, Sans-serif;
+			font-size: 9px;
+			xcolor: #666666;
+			padding: 3px;
+			display: block; }
+	#form_content fieldset div.small {
+		width: 140px; }
+		#form_content fieldset div.small input { width: 132px; }
+	#form_content fieldset div.medium { width: 300px; }
+		#form_content fieldset div.medium input { width: 292px; }
+	#form_content fieldset div.large { width: 470px; }
+		#form_content fieldset div.large input { width: 462px; }
+
+#form_content fieldset#fields_name { }
+	#form_content fieldset#fields_name h3 { }
+	#form_content fieldset#fields_name div.form-item.small {
+		width: 120px; }
+		#form_content fieldset#fields_name div.first-name.small input {
+			width: 101px; }
+		#form_content fieldset#fields_name div.last-name.small input {
+			width: 114px; }
+	#form_content fieldset#fields_name div.form-item.medium {
+		width: 150px; }
+		#form_content fieldset#fields_name div.first-name.medium input {
+			width: 131px; }
+		#form_content fieldset#fields_name div.last-name.medium input {
+			width: 144px; }
+	#form_content fieldset#fields_name div.form-item.large {
+		width: 235px; }
+		#form_content fieldset#fields_name div.first-name.large input {
+			width: 216px; }
+		#form_content fieldset#fields_name div.last-name.large input {
+			width: 229px; }
+
+#form_content fieldset#fields_address-us { }
+	#form_content fieldset#fields_address-us h3 { }
+	#form_content fieldset#fields_address-us div.form-item { }
+	#form_content fieldset#fields_address-us div.street-address {
+		width: 470px;
+		float: none; }
+		#form_content fieldset#fields_address-us div.street-address input {
+			width: 462px; }
+		#form_content fieldset#fields_address-us div.street-address label { }
+	#form_content fieldset#fields_address-us div.city {
+	  clear: left;
+		width: 250px;
+		padding: 0 10px 0 0; }
+		#form_content fieldset#fields_address-us div.city input {
+			width: 242px; }
+		#form_content fieldset#fields_address-us div.city label { }
+	#form_content fieldset#fields_address-us div.state {
+		width: 120px;
+		padding: 0 10px 0 0; }
+		#form_content fieldset#fields_address-us div.state select {
+			width: 112px; }
+		#form_content fieldset#fields_address-us div.state label { }
+	#form_content fieldset#fields_address-us div.zip {
+		width: 80px; }
+		#form_content fieldset#fields_address-us div.zip input {
+			width: 72px; }
+		#form_content fieldset#fields_address-us div.zip label { }
+
+#form_content fieldset#fields_address-world { }
+	#form_content fieldset#fields_address-world h3 { }
+	#form_content fieldset#fields_address-world div.form-item { }
+	#form_content fieldset#fields_address-world div.address-1 {
+		width: 470px; }
+		#form_content fieldset#fields_address-world div.address-1 input {
+			width: 462px; }
+		#form_content fieldset#fields_address-world div.address-1 label { }
+	#form_content fieldset#fields_address-world div.address-2 {
+		clear: left;
+		width: 470px; }
+		#form_content fieldset#fields_address-world div.address-2 input {
+			width: 462px; }
+		#form_content fieldset#fields_address-world div.address-2 label { }
+	#form_content fieldset#fields_address-world div.city {
+		clear: left;
+		width: 230px;
+		padding: 0 10px 0 0; }
+		#form_content fieldset#fields_address-world div.city input {
+			width: 222px; }
+		#form_content fieldset#fields_address-world div.city label { }
+	#form_content fieldset#fields_address-world div.state {
+		width: 230px; }
+		#form_content fieldset#fields_address-world div.state input {
+			width: 222px; }
+		#form_content fieldset#fields_address-world div.state label { }
+	#form_content fieldset#fields_address-world div.zip {
+		clear: left;
+		width: 230px;
+		padding: 0 10px 0 0; }
+		#form_content fieldset#fields_address-world div.zip input {
+			width: 222px; }
+		#form_content fieldset#fields_address-world div.zip label { }
+	#form_content fieldset#fields_address-world div.country {
+		width: 230px; }
+		#form_content fieldset#fields_address-world div.country input {
+			width: 222px; }
+		#form_content fieldset#fields_address-world div.country label { }
+
+#form_content fieldset#fields_email { }
+	#form_content fieldset#fields_email h3 { }
+	#form_content fieldset#fields_email div.form-item { }
+	#form_content fieldset#fields_email div.email { }
+		#form_content fieldset#fields_email div.email input { }
+
+#form_content fieldset#fields_phone-us { }
+	#form_content fieldset#fields_phone-us h3 { }
+	#form_content fieldset#fields_phone-us span {
+		display: block;
+		width: 18px;
+		font-weight: normal;
+		color: #666666;
+		position: relative;
+		top: 3px;
+		text-align: center;
+		float: left; }
+	#form_content fieldset#fields_phone-us div.form-item { }
+	#form_content fieldset#fields_phone-us div.phone-1 {
+		width: 40px; }
+		#form_content fieldset#fields_phone-us div.phone-1 input {
+			width: 34px; }
+		#form_content fieldset#fields_phone-us div.phone-1 label { }
+	#form_content fieldset#fields_phone-us div.phone-2 {
+		width: 40px; }
+		#form_content fieldset#fields_phone-us div.phone-2 input {
+			width: 34px; }
+		#form_content fieldset#fields_phone-us div.phone-2 label { }
+	#form_content fieldset#fields_phone-us div.phone-3 {
+		width: 47px; }
+		#form_content fieldset#fields_phone-us div.phone-3 input {
+			width: 44px; }
+		#form_content fieldset#fields_phone-us div.phone-3 label { }
+
+#form_content fieldset#fields_phone-world { }
+	#form_content fieldset#fields_phone-world h3 { }
+	#form_content fieldset#fields_phone-world span {
+		display: block;
+		width: 18px;
+		font-weight: normal;
+		color: #666666;
+		position: relative;
+		top: 3px;
+		text-align: center;
+		float: left; }
+	#form_content fieldset#fields_phone-world div.form-item { }
+	#form_content fieldset#fields_phone-world div.phone-1 {
+		width: 30px; }
+		#form_content fieldset#fields_phone-world div.phone-1 input {
+			width: 24px; }
+		#form_content fieldset#fields_phone-world div.phone-1 label { }
+	#form_content fieldset#fields_phone-world div.phone-2 {
+		width: 40px; }
+		#form_content fieldset#fields_phone-world div.phone-2 input {
+			width: 34px; }
+		#form_content fieldset#fields_phone-world div.phone-2 label { }
+	#form_content fieldset#fields_phone-world div.phone-3 {
+		width: 40px; }
+		#form_content fieldset#fields_phone-world div.phone-3 input {
+			width: 34px; }
+		#form_content fieldset#fields_phone-world div.phone-3 label { }
+	#form_content fieldset#fields_phone-us div.phone-4 {
+		width: 47px; }
+		#form_content fieldset#fields_phone-world div.phone-4 input {
+			width: 44px; }
+		#form_content fieldset#fields_phone-world div.phone-4 label { }
+
+#form_content fieldset.fields_custom { }
+	#form_content fieldset.fields_custom h3 { }
+	#form_content fieldset.fields_custom div.form-item { }
+	#form_content fieldset.fields_custom div.custom { }
+		#form_content fieldset.fields_custom div.custom input { }
+
+#form_content fieldset#fields_comments { }
+	#form_content fieldset#fields_comments h3 { }
+	#form_content fieldset#fields_comments div.form-item { }
+	#form_content fieldset#fields_comments div.comments { }
+		#form_content fieldset#fields_comments div.comments textarea { }
+
+#form_content fieldset#actions {
+  padding-top: 20px; }
+  #form_content fieldset#actions input {
+    font-size: 14px;
+    padding: 4px 10px; }
+
+#form_content form {
+  float: none;# /* This is hidden from Safari 2 but removes the float from browsers that don't have the clearing issue. */ }

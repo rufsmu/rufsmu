@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* Common CSS Document */
+@import url("../../../../templates/common/css/pages.css");
+@import url("../../../../templates/common/css/blog_posts.css");
+@import url("../../../../templates/common/css/events.css");
+@import url("../../../../templates/common/css/forms.css");
+@import url("../../../../templates/common/css/photos.css");
+@import url("../../../../templates/common/css/videos.css");
+@import url("../../../../templates/resources/css/whitespace-reset.css");

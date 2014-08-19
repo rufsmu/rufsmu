@@ -1,0 +1,49 @@
+<div id="top-nav">
+  <div class="inner">
+    <ul id="full_navigation">
+    {% for navbar_link in site.data.navbar_links %}
+      {% if navbar_link.child_links %}{% assign parent_link_highlight = false %}
+        {% for child_link in navbar_link.child_links %}
+          {% if child_link.name == page.title %}
+            {% assign parent_link_highlight = true %}
+          {% endif %}
+        {% endfor %}
+        {% if parent_link_highlight %}<li class="dropdown active">{% else %}<li class="dropdown">{% endif %}
+        <a href="{{ navbar_link.url }}" class="dropdown-toggle" data-toggle="dropdown">{{ navbar_link.name }} <b class="caret"></b></a>
+        <ul class="sub_navigation">
+        {% for child_link in navbar_link.child_links %}
+          {% if child_link.divider %}
+            {% if child_link.name == page.title %}
+              <li class="active">
+                <a href="{{ child_link.url }}">{{ child_link.name }}</a>
+              </li>
+            {% else %}
+              <li>
+                <a href="{{ child_link.url }}">{{ child_link.name }}</a>
+              </li>
+            {% endif %}
+            <li class="divider"></li>
+            {% elsif child_link.name == page.title %}
+            <li class="active">
+              <a href="{{ child_link.url }}">{{ child_link.name }}</a>
+            </li>
+            {% else %}
+            <li>
+              <a href="{{ child_link.url }}">{{ child_link.name }}</a>
+            </li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+      </li>
+      {% elsif navbar_link.name == page.title %}
+      <li class="active">
+        <a href="{{ navbar_link.url }}">{{ navbar_link.name }}</a>
+      </li>
+      {% else %}
+      <li>
+        <a href="{{ navbar_link.url }}">{{ navbar_link.name }}</a>
+      </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+

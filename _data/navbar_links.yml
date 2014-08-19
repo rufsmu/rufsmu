@@ -1,0 +1,61 @@
+---
+## Main Navigation for the Site
+
+- name: Home
+  url: /
+
+- name: About Us
+  url: /about-us/
+  child_links:
+    - name: The Gospel
+      url: /about-us/the-gospel
+    - name: Our Vision
+      url: /about-us/our-vision
+    - name: Our Values
+      url: /about-us/our-values
+    - name: Our Story
+      url: /about-us/our-story
+    - name: Our Staff
+      url: /about-us/our-staff
+    - name: Our Students
+      url: /about-us/our-students
+
+- name: Connect
+  url: /connect
+  child_links:
+    - name: Small Groups
+      url: /connect/small-groups
+    - name: Prayer
+      url: /connect/prayer
+    - name: Intramurals
+      url: /connect/intramurals
+
+- name: Grow
+  url: /grow
+  child_links:
+    - name: Churches
+      url: /grow/churches
+    - name: Large Group Talks
+      url: /grow/large-group-talks
+    - name: Studies
+      url: /grow/studies
+    - name: Articles
+      url: /grow/articles
+    - name: Resources
+      url: /grow/resources
+
+- name: Serve
+  url: /serve
+  child_links:
+    - name: In RUF
+      url: /serve/in-ruf
+    - name: On Campus
+      url: /serve/on-campus
+    - name: Around Dallas
+      url: /serve/around-dallas
+    - name: Mission and Vision Trips
+      url: /serve/mission-and-vision-trips
+
+- name: Support
+  url: /support
+
