@@ -9,7 +9,7 @@ banner: 13087.jpg
 
 ### James Madden
 
-#### _Campus Minister_
+#### _Campus Director_
 
 James Madden was born and raised in Dallas, TX.  He attended Washington and Lee University in Lexington, VA from 2004-2008, and he graduated with a BA in Spanish and History.  During his time there he was very involved with RUF, played baseball, and was in a fraternity.  From 2008-2010, he worked as an RUF Intern at Wake Forest University, afterward returning home to Dallas to begin attending Redeemer Seminary.  During that time, he started and ran an outdoor services company before moving into the Elementary Children's Ministry at Park Cities Presbyterian Church.  He has been the Elementary Coordinator there since 2012, and he recently graduated with a Master of Divinity (M.Div.) from Redeemer.  James enjoys spending time with friends and family, reading, writing, sports, coffee shops, and a little hunting and fishing.  
 
