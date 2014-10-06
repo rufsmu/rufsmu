@@ -25,6 +25,6 @@ Email: <james.madden@ruf.org>
 
 Robby and Ann both grew up in Dallas and even went to the same high school, but they didn’t meet until 2006 when Robby was working with one of Ann’s best friends at Park Cities Presbyterian Church (PCPC). This friend (Kim Sayles, another RUF volunteer) gave a strong push to Robby and a bold prediction to Ann.  Kim was right, and Ann and Robby got married in 2008 while Robby was working with high school students and Ann was pursuing a career as a writer and photographer. In 2011 Robby became the director of college ministry at PCPC and has enjoyed partnering with SMU RUF over the last two years. Ann and Robby are grateful for the opportunity to walk with college students and have a particular heart for helping them connect with the local church. Robby serves with the RUF music team on Tuesday nights and teaches a college class at PCPC on Sundays at 11:00 am. Robby loves watching and playing sports, strumming guitars, and enjoying all the good food around Dallas.
 
-**Email:** [robby.higginbottom@pcpc.org](mailto:robby.higginbottom@pcpc.org)
+**Email:** <robby.higginbottom@pcpc.org>
 
 **Phone:** (214) 384-2565
