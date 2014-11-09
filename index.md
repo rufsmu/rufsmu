@@ -12,12 +12,6 @@ To describe what we mean in a little more detail: The gospel is the good news th
 
 At RUF, we intend to be a community who cares for one another, welcomes outsiders, invests in our common life, and celebrates often. Ministry is not the job of religious professionals. Rather, it is the calling of the entire Christian community to love others by what they say and how they live. Most ministry takes place in the ordinary business of the world, or in our case, the day-in and day-out of campus life. It involves challenging individual, ideas, and institutions with the claim that Jesus is Lord, affirming truth, beauty, and justice wherever they are found, and seeking the conditions for our neighbors to flourish. We intend to live faithfully in our calling to love SMU.
 
-
-
-> "Anyone can come.. Christ asks no preparation of any kind whatsoever, legal or evangelical, outward or inward, in the coming sinner.... It is not 'exercised souls,' nor 'penitent believers,' nor 'well-humbled seekers,' nor earnest 'users of the means,' nor any of the better class of Adam's sons or daughters: but sinners, that Christ welcomes."
-> 
-> (Horatius Bonar, God's Way of Peace)
-
 <span class="mhimg img-large img-center" markdown="1">
 ![DSC_0867](/assets/image/large/252118.jpg){:style="width:100%"}
 </span>
